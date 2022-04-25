@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Amount</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <h1 id="wallet">Add Money to wallet</h1>
+   <!-- Display the wallet amount here inside h1 tag with id as "wallet". Note only amount, no extra text. Like 500 not Rs 500 -->
+    </div>
+    <div id="add-money">
+      <!-- input box for accepting money with id as "amount" -->
+      <input type="search" id="amount" placeholder="Enter Amount"> <br>
+      <!-- button with id as "add_to_wallet" -->
+      <button  onclick="addtoWallet()" id="add_to_wallet" >add_to_wallet</button><br>
+      <!-- button with id as "book_movies" to go to movies.html -->
+    <a href="movies.html"><button id="book_movies" >book_movies</button></a><br>
+    </div>
+  </body>
+</html>
+<!-- 1. Wallet amount should be in the H1 tag with id as “wallet”.
+2. Input box for accepting amount with id as “amount”.
+3. Add to wallet button with id as “add_to_wallet”.
+4. Add the wallet amount to local storage as key “amount”.
+5. Link or button to go to “movies.html” should have id as “book_movies”.
+6. Input box for searching movies will have an id as “search”.
+7. Append all searched movies inside the div with id as “movies”.
+8. Book now buttons will have class as “book_now”.
+9. Add the selected movie for booking to local storage with key as “movie”
+10. Inside checkout.html name input box id will be “user_name”
+11. The number of seats input box will have id as “number_of_seats”.
+12. A submit button to confirm booking with id as “confirm”.
+13. Give alert as : -
+- “Insufficient Balance!”  in case of insufficient wallet balance.
+- “Booking successful!”  in case of successful booking. -->
+
+<script src="./scripts/index.js"></script>
